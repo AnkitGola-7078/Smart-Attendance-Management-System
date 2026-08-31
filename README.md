@@ -13,7 +13,7 @@ A modern **full-stack Smart Attendance Management System** built using the **MER
 
 ## 🌐 Live Demo
 
-**Frontend:** https://smart-attendance-system-olive-pi.vercel.app/
+**Frontend:** https://client-tau-dun.vercel.app/
 
 **Backend API:** https://smart-attendance-system-ydti.onrender.com
 
