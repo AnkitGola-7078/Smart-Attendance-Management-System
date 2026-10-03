@@ -288,7 +288,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Author
 
-**Ramesh Netheti**
+**Ankit Gola**
 
 B.Tech Computer Science & Engineering
 
