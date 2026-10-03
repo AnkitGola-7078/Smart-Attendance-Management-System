@@ -13,7 +13,7 @@ A modern **full-stack Smart Attendance Management System** built using the **MER
 
 ## 🌐 Live Demo
 
-**Live:** https://client-chmp1.vercel.app/dashboard
+**Live:** https://client-chmp1.vercel.app/
 
 ---
 
