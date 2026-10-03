@@ -1,14 +1,14 @@
 const QRSession = require("../models/QRSession");
 const Student = require("../models/Student");
 const Attendance = require("../models/Attendance");
-const { v4: uuidv4 } = require("uuid");
+const { randomUUID } = require("crypto");
 
 // =========================
 // Generate QR
 // =========================
 const generateQR = async (req, res) => {
   try {
-    const token = uuidv4();
+    const token = randomUUID();
 
     const expiresAt = new Date(Date.now() + 5 * 60 * 1000);
 

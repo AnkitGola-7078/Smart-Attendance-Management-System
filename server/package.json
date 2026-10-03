@@ -23,8 +23,7 @@
     "mongodb": "^6.18.0",
     "mongoose": "^8.18.0",
     "multer": "^2.2.0",
-    "streamifier": "^0.1.1",
-    "uuid": "^14.0.1"
+    "streamifier": "^0.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
