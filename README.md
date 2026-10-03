@@ -162,6 +162,10 @@ cd server
 
 npm install
 
+# PowerShell: Copy-Item .env.example .env
+# Start MongoDB locally or set MONGODB_URI to a MongoDB Atlas connection string.
+# Set MONGODB_URI and JWT_SECRET in .env.
+
 npm start
 ```
 
@@ -174,6 +178,9 @@ cd client
 
 npm install
 
+# Optional, if overriding the default local API URL:
+# PowerShell: Copy-Item .env.example .env
+
 npm run dev
 ```
 
@@ -181,24 +188,24 @@ npm run dev
 
 # ⚙️ Environment Variables
 
-## Backend (.env)
+Copy `server/.env.example` to `server/.env` and configure:
 
 ```env
 PORT=5000
 
-MONGODB_URI=mongodb_connection_string
+MONGODB_URI=mongodb://127.0.0.1:27017/smart-attendance
 
-JWT_SECRET=secret_key
+JWT_SECRET=replace_with_a_long_random_secret
 
+# Cloudinary credentials are required for student image uploads
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
-
 ```
 
 ---
 
-## Frontend (.env)
+Copy `client/.env.example` to `client/.env` only if you need to override the local API URL:
 
 ```env
 VITE_API_URL=http://localhost:5000/api
